@@ -1,4 +1,4 @@
-FROM python:3.12.7
+FROM python:3.12.7-alpine3.20
 LABEL author="Manoj" application="MovieshopFastAPIwithoutDB"
 COPY . /MovieshopFastAPIwithoutDB
 WORKDIR /MovieshopFastAPIwithoutDB
